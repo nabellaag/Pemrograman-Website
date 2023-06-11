@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 2 - CSS & JS</title>
+    <link rel="stylesheet" href="/CSS/Prak2.css">
+</head>
+<body>
+    A. Membuat tabel <br>
+    <table>
+        <tr>
+            <td style="font-weight: bold;">NO</td>
+            <td style="font-weight: bold;">NIM</td>
+            <td style="font-weight: bold;">Mahasiswa</td>
+            <td style="font-weight: bold;">Jam</td>
+            <td style="font-weight: bold;">Lokasi</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>21.11.4375</td>
+            <td>Nabella Ayu Giwanti</td>
+            <td>13:34:56</td>
+            <td>AMIKOM</td>
+        </tr>        
+    </table>
+    <br>
+    B. Membuat tabel dan embed style sheet <br>
+    <br>
+    <table>
+        <thead>
+            <tr>
+                <th>NO</th>
+                <th>NIM</th>
+                <th>Mahasiswa</th>
+                <th>Jam</th>
+                <th>Lokasi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>21.11.4375</td>
+                <td>Nabella Ayu Giwanti</td>
+                <td>13:34:56</td>
+                <td>
+                    <div class="label">
+                        AMIKOM
+                    </div>
+                </td>
+            </tr> 
+        </tbody>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="4" bgcolor="orange">Daftar Buku</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3"><img src="Download novel si putih tere liye pdf.jpeg" alt="Gambar Buku" width="60"></th>
+                <td>Judul</td>
+                <td>:</td>
+                <td>Web Programming</td>
+            </tr>
+            <tr>
+                <td>Harga</td>
+                <td>:</td>
+                <td>Rp 150.000</td>
+            </tr>
+            <tr>
+                <td>Pengarang</td>
+                <td>:</td>
+                <td>Tere Liye</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
