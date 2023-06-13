@@ -27,10 +27,10 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Explore</a>
+            <a class="nav-link" href="#">Portofolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Support</a>
+            <a class="nav-link" href="#">Interest</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">About</a>
@@ -43,17 +43,14 @@
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
-              Dropdown
+              Project
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Individu</a></li>
+              <li><a class="dropdown-item" href="#">Group</a></li>
               <li><hr class="dropdown-divider" /></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="#">Competition</a></li>
             </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
           </li>
         </ul>
         <form class="d-flex" role="search">
